@@ -1,5 +1,5 @@
 
-package perondi.BeSuffle.controller;
+package perondi.BeShuffle.controller;
 
 
 import org.springframework.http.ResponseEntity;
@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import perondi.BeSuffle.dtos.album.Album;
-import perondi.BeSuffle.client.AlbumSpotifyClient;
-import perondi.BeSuffle.client.AuthSpotifyClient;
-import perondi.BeSuffle.dtos.login.LoginRequest;
+import perondi.BeShuffle.dtos.album.Album;
+import perondi.BeShuffle.client.AlbumSpotifyClient;
+import perondi.BeShuffle.client.AuthSpotifyClient;
+import perondi.BeShuffle.dtos.login.LoginRequest;
 
 @RestController
 @RequestMapping("/spotify/api")

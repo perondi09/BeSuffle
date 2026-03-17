@@ -1,4 +1,4 @@
-package perondi.BeSuffle.dtos.album;
+package perondi.BeShuffle.dtos.login;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,13 +9,12 @@ import tools.jackson.databind.annotation.JsonNaming;
 
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 
 @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
-public class Album {
+public class LoginResponse {
 
-    private String id;
-    private String name;
-    private String releaseDate;
+    private String accessToken;
+
 }

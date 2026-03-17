@@ -1,11 +1,11 @@
-package perondi.BeSuffle.client;
+package perondi.BeShuffle.client;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import perondi.BeSuffle.dtos.login.LoginRequest;
-import perondi.BeSuffle.dtos.login.LoginResponse;
+import perondi.BeShuffle.dtos.login.LoginRequest;
+import perondi.BeShuffle.dtos.login.LoginResponse;
 
 @FeignClient(
         name = "AuthSpotifyClient",

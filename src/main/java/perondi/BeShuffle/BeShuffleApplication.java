@@ -1,4 +1,4 @@
-package perondi.BeSuffle;
+package perondi.BeShuffle;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients
-public class BeSuffleApplication {
+public class BeShuffleApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BeSuffleApplication.class, args);
+		SpringApplication.run(BeShuffleApplication.class, args);
 	}
 
 }

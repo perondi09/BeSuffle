@@ -1,4 +1,4 @@
-package perondi.BeSuffle.dtos.album;
+package perondi.BeShuffle.dtos.album;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

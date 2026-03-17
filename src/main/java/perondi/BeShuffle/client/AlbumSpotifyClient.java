@@ -1,10 +1,10 @@
-package perondi.BeSuffle.client;
+package perondi.BeShuffle.client;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestHeader;
-import perondi.BeSuffle.dtos.album.Album;
+import perondi.BeShuffle.dtos.album.Album;
 
 @FeignClient(
         name = "AlbumSpotifyClient",
