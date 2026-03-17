@@ -1,4 +1,4 @@
-package perondi.BeSuffle.client;
+package perondi.BeSuffle.dtos.login;
 
 import feign.form.FormProperty;
 import lombok.AllArgsConstructor;
