@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import perondi.BeSuffle.client.Album;
+import perondi.BeSuffle.dtos.album.Album;
 import perondi.BeSuffle.client.AlbumSpotifyClient;
 import perondi.BeSuffle.client.AuthSpotifyClient;
-import perondi.BeSuffle.client.LoginRequest;
+import perondi.BeSuffle.dtos.login.LoginRequest;
 
 @RestController
 @RequestMapping("/spotify/api")
