@@ -59,7 +59,8 @@ docker-compose up --build
 
 ## 4) Acessar no navegador
 
-- http://localhost:8080
+- Local: http://localhost:8080
+- Producao (deploy): https://beshuffle.onrender.com/
 
 Ao abrir a pagina:
 - o album eh carregado automaticamente
